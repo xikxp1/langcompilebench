@@ -1,0 +1,205 @@
+import benchmark_cheby::a1
+import benchmark_cheby::a2
+import benchmark_cheby::a3
+import benchmark_cheby::a4
+import benchmark_cheby::a5
+import benchmark_cheby::a6
+import benchmark_cheby::a7
+import benchmark_cheby::a8
+import benchmark_cheby::a9
+import benchmark_cheby::a10
+import benchmark_cheby::a11
+import benchmark_cheby::a12
+import benchmark_cheby::a13
+import benchmark_cheby::a14
+import benchmark_cheby::a15
+import benchmark_cheby::a16
+import benchmark_cheby::a17
+import benchmark_cheby::a18
+import benchmark_cheby::a19
+import benchmark_cheby::a20
+import benchmark_cheby::a21
+import benchmark_cheby::a22
+import benchmark_cheby::a23
+import benchmark_cheby::a24
+import benchmark_cheby::a25
+import benchmark_cheby::a26
+import benchmark_cheby::a27
+import benchmark_cheby::a28
+import benchmark_cheby::a29
+import benchmark_cheby::a30
+import benchmark_cheby::a31
+import benchmark_cheby::a32
+import benchmark_cheby::a33
+import benchmark_cheby::a34
+import benchmark_cheby::a35
+import benchmark_cheby::a36
+import benchmark_cheby::a37
+import benchmark_cheby::a38
+import benchmark_cheby::a39
+import benchmark_cheby::a40
+import benchmark_cheby::a41
+import benchmark_cheby::a42
+import benchmark_cheby::a43
+import benchmark_cheby::a44
+import benchmark_cheby::a45
+import benchmark_cheby::a46
+import benchmark_cheby::a47
+import benchmark_cheby::a48
+import benchmark_cheby::a49
+import benchmark_cheby::a50
+import benchmark_cheby::a51
+import benchmark_cheby::a52
+import benchmark_cheby::a53
+import benchmark_cheby::a54
+import benchmark_cheby::a55
+import benchmark_cheby::a56
+import benchmark_cheby::a57
+import benchmark_cheby::a58
+import benchmark_cheby::a59
+import benchmark_cheby::a60
+import benchmark_cheby::a61
+import benchmark_cheby::a62
+import benchmark_cheby::a63
+import benchmark_cheby::a64
+import benchmark_cheby::a65
+import benchmark_cheby::a66
+import benchmark_cheby::a67
+import benchmark_cheby::a68
+import benchmark_cheby::a69
+import benchmark_cheby::a70
+import benchmark_cheby::a71
+import benchmark_cheby::a72
+import benchmark_cheby::a73
+import benchmark_cheby::a74
+import benchmark_cheby::a75
+import benchmark_cheby::a76
+import benchmark_cheby::a77
+import benchmark_cheby::a78
+import benchmark_cheby::a79
+import benchmark_cheby::a80
+import benchmark_cheby::a81
+import benchmark_cheby::a82
+import benchmark_cheby::a83
+import benchmark_cheby::a84
+import benchmark_cheby::a85
+import benchmark_cheby::a86
+import benchmark_cheby::a87
+import benchmark_cheby::a88
+import benchmark_cheby::a89
+import benchmark_cheby::a90
+import benchmark_cheby::a91
+import benchmark_cheby::a92
+import benchmark_cheby::a93
+import benchmark_cheby::a94
+import benchmark_cheby::a95
+import benchmark_cheby::a96
+import benchmark_cheby::a97
+import benchmark_cheby::a98
+import benchmark_cheby::a99
+import benchmark_cheby::a100
+
+// Reach one function in every module: `cheby build` compiles only the
+// modules that `main` reaches, while the other languages compile them all.
+fn main() {
+  let _ = a1::hello1()
+  let _ = a2::hello1()
+  let _ = a3::hello1()
+  let _ = a4::hello1()
+  let _ = a5::hello1()
+  let _ = a6::hello1()
+  let _ = a7::hello1()
+  let _ = a8::hello1()
+  let _ = a9::hello1()
+  let _ = a10::hello1()
+  let _ = a11::hello1()
+  let _ = a12::hello1()
+  let _ = a13::hello1()
+  let _ = a14::hello1()
+  let _ = a15::hello1()
+  let _ = a16::hello1()
+  let _ = a17::hello1()
+  let _ = a18::hello1()
+  let _ = a19::hello1()
+  let _ = a20::hello1()
+  let _ = a21::hello1()
+  let _ = a22::hello1()
+  let _ = a23::hello1()
+  let _ = a24::hello1()
+  let _ = a25::hello1()
+  let _ = a26::hello1()
+  let _ = a27::hello1()
+  let _ = a28::hello1()
+  let _ = a29::hello1()
+  let _ = a30::hello1()
+  let _ = a31::hello1()
+  let _ = a32::hello1()
+  let _ = a33::hello1()
+  let _ = a34::hello1()
+  let _ = a35::hello1()
+  let _ = a36::hello1()
+  let _ = a37::hello1()
+  let _ = a38::hello1()
+  let _ = a39::hello1()
+  let _ = a40::hello1()
+  let _ = a41::hello1()
+  let _ = a42::hello1()
+  let _ = a43::hello1()
+  let _ = a44::hello1()
+  let _ = a45::hello1()
+  let _ = a46::hello1()
+  let _ = a47::hello1()
+  let _ = a48::hello1()
+  let _ = a49::hello1()
+  let _ = a50::hello1()
+  let _ = a51::hello1()
+  let _ = a52::hello1()
+  let _ = a53::hello1()
+  let _ = a54::hello1()
+  let _ = a55::hello1()
+  let _ = a56::hello1()
+  let _ = a57::hello1()
+  let _ = a58::hello1()
+  let _ = a59::hello1()
+  let _ = a60::hello1()
+  let _ = a61::hello1()
+  let _ = a62::hello1()
+  let _ = a63::hello1()
+  let _ = a64::hello1()
+  let _ = a65::hello1()
+  let _ = a66::hello1()
+  let _ = a67::hello1()
+  let _ = a68::hello1()
+  let _ = a69::hello1()
+  let _ = a70::hello1()
+  let _ = a71::hello1()
+  let _ = a72::hello1()
+  let _ = a73::hello1()
+  let _ = a74::hello1()
+  let _ = a75::hello1()
+  let _ = a76::hello1()
+  let _ = a77::hello1()
+  let _ = a78::hello1()
+  let _ = a79::hello1()
+  let _ = a80::hello1()
+  let _ = a81::hello1()
+  let _ = a82::hello1()
+  let _ = a83::hello1()
+  let _ = a84::hello1()
+  let _ = a85::hello1()
+  let _ = a86::hello1()
+  let _ = a87::hello1()
+  let _ = a88::hello1()
+  let _ = a89::hello1()
+  let _ = a90::hello1()
+  let _ = a91::hello1()
+  let _ = a92::hello1()
+  let _ = a93::hello1()
+  let _ = a94::hello1()
+  let _ = a95::hello1()
+  let _ = a96::hello1()
+  let _ = a97::hello1()
+  let _ = a98::hello1()
+  let _ = a99::hello1()
+  let _ = a100::hello1()
+}

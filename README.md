@@ -10,19 +10,28 @@ Median of 11 runs.
 
 | Language                 | Seconds |
 | ------------------------ | ------- |
-| C#                       | 0.929   |
-| Elixir                   | 0.509   |
-| Elm                      | 0.510   |
-| Erlang                   | 0.406   |
-| Gleam v1.17.0 Erlang     | 0.434   |
-| Gleam v1.19.0 Erlang     | 0.342   |
-| Gleam v1.19.0 JavaScript | 0.188   |
-| Go                       | 0.195   |
-| Java                     | 0.463   |
-| Rust                     | 0.733   |
-| TypeScript 6             | 1.412   |
-| TypeScript 7             | 0.965   |
+| C#                       | 0.778   |
+| Cheby native             | 0.220   |
+| Cheby check              | 0.043   |
+| Elixir                   | 0.511   |
+| Elm                      | 0.854   |
+| Erlang                   | 0.434   |
+| Gleam v1.17.0 Erlang     | 0.443   |
+| Gleam v1.19.2 Erlang     | 0.383   |
+| Gleam v1.19.2 JavaScript | 0.079   |
+| Go                       | 0.464   |
+| Java                     | 0.435   |
+| Rust                     | 0.823   |
+| TypeScript 6             | 1.739   |
+| TypeScript 7             | 1.202   |
 
-Versions: Java temurin-25.0.4+101.0.LTS, Gradle 9.7.1, Cabal 3.16.1.0, Ghc
-9.10.3, Dotnet 10.0.400, Rebar 3.27.0, Erlang 29.0.6, Elixir 1.20.4-otp-29, Go
-1.27.1, OCaml 5.5.1
+Versions: Cheby 0.0.0 (`d09a113`, release build), Java OpenJDK 27.0.1, Gradle
+9.8.2, Dotnet 10.0.402, Rebar 3.28.0, Erlang 29 (ERTS 17.1.1), Elixir
+1.20.4-otp-29, Elm 0.19.3, Go 1.27.3, Rust 1.99.0, Node 24.22.1, TypeScript
+6.0.3 and 7.0.2. Apple M3, on AC power.
+
+Cheby native is `cheby build`: a cold build cache and a linked native
+executable. `cheby build` compiles only the modules that `main` reaches, so
+`main` calls one function from each module. Cheby check is `cheby check`, which
+type-checks every module and generates no code. The scripts expect `cheby` on
+`PATH`.
